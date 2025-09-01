@@ -110,3 +110,12 @@
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width:767px) {
+    .terminal-img {
+        position: relative;
+        top: 15px;
+        right: -185px;
+    }
+
+}
