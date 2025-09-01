@@ -1,0 +1,112 @@
+/* Typing animation for the last line */
+.typing {
+    overflow: hidden;
+    border-right: 0.15em solid #10b981;
+    white-space: nowrap;
+    animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: #10b981;
+    }
+}
+
+.footer {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px 10px;
+}
+
+.social-icons {
+    margin-top: 8px;
+}
+
+.social-icons a {
+    margin: 0 8px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-left p,
+.footer-right p {
+    color: #fff;
+    margin: 5px 0;
+}
+
+.name {
+    font-family: "Brush Script MT", cursive;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.heart {
+    color: red;
+}
+
+.social-icons {
+    margin-top: 8px;
+}
+
+.social-icons a {
+    margin: 0 6px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-bottom img {
+    max-width: 100%;
+    height: auto;
+}
